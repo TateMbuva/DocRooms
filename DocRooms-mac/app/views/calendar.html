@@ -1,0 +1,231 @@
+
+
+
+<div class="ui container" ng-controller="calendarCtrl">
+
+   <div class="calendar-control">
+
+   	<div class="ui grid">
+		 <div class="seven wide column">
+
+   	<div class="btn-group">
+      <button class="btn btn-default" ng-click="back()">
+        <span class="icon icon-left-open"></span>
+      </button>
+
+      <button class="btn btn-default">
+       Today
+      </button>
+
+      <button class="btn btn-default" ng-click="forward()">
+        <span class="icon icon-right-open"></span>
+      </button>
+    </div>
+
+    </div>
+
+    <div class="four wide column">
+
+    	<h3>{{ month }}</h3>
+
+
+    </div>
+
+
+
+</div>
+
+
+
+   </div>
+
+
+
+<div class="calendar-container">
+<table class="ui  celled table">
+  <thead class="calendar-header">
+
+    <tr>
+      <th class="two wide">Sunday</th>
+      <th class="two wide">Monday</th>
+      <th class="two wide">Tuesday</th>
+      <th class="two wide">Wednesday</th>
+      <th class="two wide">Thursday</th>
+      <th class="two wide">Friday</th>
+      <th class="two wide">Saturday</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td ng-class="{ 'selectable': cell-one-select }">
+        <a href="#">{{ cell.one }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.two }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.three }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.four }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.five }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.six }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.seven }}</a>
+      </td>
+
+    </tr>
+
+
+
+    <tr>
+      <td class="selectable">
+        <a href="#">{{ cell.eight }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.nine }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.ten }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.eleven }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twelve }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.thirteen }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.fourteen }}</a>
+      </td>
+
+    </tr>
+
+
+
+    <tr>
+      <td class="selectable">
+        <a href="#">{{ cell.fifteen }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.sixteen }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.seventeen }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.eighteen }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.ninteen }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twenty }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyOne }}</a>
+      </td>
+
+    </tr>
+
+
+    <tr>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyTwo }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyThree }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyFour }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyFive }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentySix }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentySeven }}</a>
+      </td>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyEight }}</a>
+      </td>
+
+    </tr>
+
+
+
+    <tr>
+      <td class="selectable">
+        <a href="#">{{ cell.twentyNine }}</a>
+         </td>
+      <td class="selectable">
+
+      	<div class="ui grid ">
+			<div class="three wide column ">
+					<div class="calendar-date"> 30 </div>
+
+			</div>
+
+			<div class="three wide column">
+			</div>
+
+			<div class="three wide column">
+
+					<div class="ui blue circular label">9</div>
+			</div>
+
+			<div class="three wide column">
+
+					<div class="ui grey circular label">11</div>
+			</div>
+
+
+
+      	</div>
+
+
+      </td>
+      <td class="selectable">
+         <a href="#">{{ cell.thirtyOne }}</a>
+      </td>
+      <td >
+
+      </td>
+      <td >
+
+      </td>
+      <td >
+
+      </td>
+      <td>
+
+      </td>
+
+    </tr>
+
+
+  </tbody>
+</table>
+</div>
+
+<div class="ui fluid secondary raised segment calendar-day">
+
+
+Stuff
+
+
+</div>
+
+
+
+
+</div>

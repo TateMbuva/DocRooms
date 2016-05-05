@@ -1,0 +1,202 @@
+.main-content{
+	overflow: hidden;
+}
+.view-container {
+
+	overflow-x: hidden;
+	overflow-y:hidden;
+}
+.search-patient {
+	width: 250px;
+	
+	margin-left: 220px;
+}
+.search-btn {
+
+	position: relative;
+	right: 40px;
+	top: 1px;
+
+}
+.search-btn-btn {
+
+	height: 30px !important;
+	background-color: white;
+	border-color: transparent;
+	box-shadow: none !important;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.userName-item {
+
+	height: 50px;
+	border-bottom:1px solid #ddd;
+	padding-top: 15px;
+	color: grey;
+}
+.nav-item-tings {
+
+	color: grey !important;
+}
+.userName-item:active {
+    background-color: #f5f5f4 !important;
+}
+
+
+
+
+
+
+
+
+
+
+.pf-list {
+
+	padding-left: 5px;
+
+}
+.item {
+
+	height: 100px;
+}
+.item .content {
+
+	padding-left: 10px;
+}
+
+.item .icon {
+
+	padding-left: 10px;
+}
+.list-column {
+
+	height: 100vh !important;
+	margin-bottom: 0px !important;
+	border-right:1px solid #ddd !important;
+	overflow-y: scroll;
+}
+.focus-cont {
+	padding-right: 25px;
+	padding-top: 10px;
+	overflow: hidden;
+}
+
+
+
+
+
+
+
+.patient-formA {
+	height: 700px !important;
+	padding: 10px;
+	overflow-y: scroll !important;
+	
+	
+
+}
+.patient-formB {
+	height: 700px !important;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 0px;
+	overflow-y: scroll !important;
+	
+	
+}
+.inner-form {
+
+	height: 950px !important;
+
+}
+
+
+
+.hidden {
+
+	display: none;
+}
+
+.patient-file-ctrl {
+	background-color:#f5f5f4;
+	height: 64px;
+	border-bottom:1px solid #ddd !important;
+
+}
+
+.patient-file-btns {
+	padding-top: 10px;
+	padding-right: 10px
+}
+
+
+
+
+
+
+
+.newVisit-formA{
+	padding: 10px;
+	overflow: hidden !important;
+}
+
+.newVisit-formB{
+	padding: 10px;
+	overflow: scroll;
+}
+
+
+
+
+.calendar-container{
+	padding: 10px;
+	
+	
+}
+
+
+
+
+.calendar-header th{
+	background: #f5f5f4 !important;
+	
+}
+
+.calendar-date{
+	margin-left: 5px;
+
+	
+	
+}
+
+.calendar-day{
+	padding: 10px;
+	margin: 10px !important;
+	background: #f5f5f4 !important;
+	height: 300px;
+	
+}
+
+
+
+.calendar-control{
+	padding: 10px;
+	padding-bottom: 0px !important;
+	
+}
+
+
+

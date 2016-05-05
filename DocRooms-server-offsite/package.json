@@ -1,0 +1,19 @@
+{
+  "name": "docrooms-server-offsite",
+  "version": "1.0.0",
+  "description": "DocRooms backend service, real-time, Restful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "rest",
+    "restful",
+    "database",
+    "backend",
+    "server"
+  ],
+  "author": "Tatenda Mbuwayesango",
+  "license": "ISC"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Docrooms",
+  "version": "1.0.0",
+  "description": "Docrooms mac client-side app",
+  "main": "app.js",
+  "author": "Tatenda Mbuwayesango",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "lokijs": "^1.3.16"
+  }
+}

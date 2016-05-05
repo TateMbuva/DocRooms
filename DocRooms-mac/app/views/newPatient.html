@@ -1,0 +1,337 @@
+
+
+<!-- New Patient Tab -->
+
+
+<div class="ui container view-container" ng-controller="newPatientCtrl">
+
+	<div class="ui grid patient-file-ctrl">
+		 <div class="eight wide column">
+
+		 	{{ patient.firstName }} {{ patient.lastName }}
+
+
+		 </div>
+		 <div class="eight wide column">
+		 	<div class=" pull-right patient-file-btns">
+		 	<button class="btn btn-large btn-default " ng-click=" checkit() ">Save Patient File</button>
+		 	<button class="btn btn-large btn-primary ">Save File & Book Visit</button>
+		 </div>
+		 </div>
+
+
+
+
+	</div>
+
+
+
+<div class="ui grid ">
+  <div class="eight wide column">
+
+  <div class="ui container patient-formA">
+
+  	<form class="ui form inner-form">
+
+  <h4 class="ui dividing header">Patient Information</h4>
+  <div class="field">
+    <label>Name</label>
+    <div class="two fields">
+      <div class="field">
+        <input type="text"  placeholder="First Name" ng-model="patient.firstName">
+      </div>
+      <div class="field">
+        <input type="text"  placeholder="Middle Name" ng-model="patient.middleName">
+      </div>
+    </div>
+    <div class="field">
+        <input type="text"  placeholder="Last Name" ng-model="patient.lastName">
+      </div>
+  </div>
+
+
+  <div class="field">
+    <label>Date of Birth</label>
+   <div class="three fields">
+
+   	<div class="field">
+          <select class="ui fluid search dropdown">
+            <option value="">Day</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+
+          </select>
+        </div>
+
+        <div class="field">
+          <select class="ui fluid search dropdown">
+            <option value="">Month</option>
+            <option value="1">January</option>
+            <option value="2">February</option>
+            <option value="3">March</option>
+            <option value="4">April</option>
+            <option value="5">May</option>
+            <option value="6">June</option>
+            <option value="7">July</option>
+            <option value="8">August</option>
+            <option value="9">September</option>
+            <option value="10">October</option>
+            <option value="11">November</option>
+            <option value="12">December</option>
+          </select>
+        </div>
+        <div class="field">
+          <input type="text" maxlength="4" placeholder="Year">
+        </div>
+      </div>
+  </div>
+
+    <div class="field">
+      <label>Address</label>
+      <div class="fields">
+      	<div class="ten wide field">
+        <input type="text"  placeholder="Street">
+      </div>
+      <div class="six wide field">
+        <input type="text"  placeholder="City/Town">
+      </div>
+      </div>
+
+
+    </div>
+
+    <div class="field">
+      <label>Contact Details</label>
+      <div class="two fields">
+      	<div class="field">
+        <input type="text"  placeholder="Primary Number">
+      </div>
+      <div class="field">
+        <input type="text"  placeholder="Secondary Number">
+      </div>
+
+      </div>
+
+      <div class="field">
+        <input type="text"  placeholder="Email">
+      </div>
+
+
+    </div>
+
+    <div class="field">
+
+      <div class="two fields">
+      	<div class="field">
+      		<label>Sex</label>
+        <select class="ui fluid search dropdown">
+            <option value="">Sex</option>
+            <option value="1">Female</option>
+            <option value="2">Male</option>
+
+          </select>
+      </div>
+      <div class="field">
+      	<label>Marital Status</label>
+        <select class="ui fluid search dropdown">
+            <option value="">Status</option>
+            <option value="1">Single</option>
+            <option value="2">Married</option>
+           </select>
+      </div>
+
+      </div>
+</div>
+
+    <div class="field">
+      <label>Employment</label>
+      <div class="two fields">
+      	<div class="field">
+        <input type="text"  placeholder="Occupation">
+      </div>
+      <div class="field">
+        <input type="text"  placeholder="Employer">
+      </div>
+
+      </div>
+</div>
+
+    <div class="field last-inputs">
+      <label>Allergies</label>
+      <div class="field">
+      	 <textarea rows="5"></textarea>
+      </div>
+</div>
+
+ <div class="field">
+      	<label>Doctor On Case</label>
+        <select class="ui fluid search dropdown">
+            <option value="">Doctor</option>
+            <option value="1">Dr Zimhunu</option>
+            <option value="2">Dr N.C. Munyandu</option>
+             <option value="3">Dr. B.A. Mbuwayesango</option>
+
+          </select>
+      </div>
+
+
+
+
+
+</form>
+
+
+
+
+  </div>
+
+  </div>
+
+  <div class="eight wide column">
+
+
+
+  	<div class="ui container patient-formB">
+
+  		<form class="ui form inner-form">
+
+  <h4 class="ui dividing header">Referred From</h4>
+  <div class="field">
+  	 <label> Doctor/Institution </label>
+
+     <div class="field">
+        <input type="text"  placeholder="Name">
+      </div>
+
+  </div>
+
+  <h4 class="ui dividing header">Next Of Kin</h4>
+  <div class="field">
+    <label>Name</label>
+   <div class="field">
+
+        <div class="field">
+          <input type="text"  placeholder="Full Name">
+        </div>
+
+  </div>
+
+  <div class="field">
+      <label>Contact Details</label>
+
+
+      <div class="field">
+        <input type="text"  placeholder="Primary Number">
+      </div>
+
+
+
+      <div class="field">
+        <input type="text"  placeholder="Email">
+      </div>
+
+
+    </div>
+
+    <div class="field">
+      <label>Address</label>
+      <div class="fields">
+      	<div class="ten wide field">
+        <input type="text"  placeholder="Street">
+      </div>
+      <div class="six wide field">
+        <input type="text"  placeholder="City/Town">
+      </div>
+      </div>
+
+
+    </div>
+
+    <h4 class="ui dividing header">Payment Method</h4>
+
+    <div class="field">
+
+        <select class="ui fluid search dropdown">
+            <option value="">Payment</option>
+            <option value="1">Cash</option>
+            <option value="2">Credit Card/Debit Card</option>
+             <option value="3">Medical Aid</option>
+
+          </select>
+      </div>
+
+
+      <h4 class="ui dividing header">File Details</h4>
+
+
+
+    <div class="field ">
+    	<label>File Number</label>
+    	 <input type="text"  placeholder="#">
+
+
+      </div>
+
+      <div class="field">
+    <label>File Notes</label>
+    <textarea rows="5"></textarea>
+  </div>
+
+
+
+
+
+</form>
+
+
+
+
+
+
+  </div>
+
+  </div>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+  </div>
